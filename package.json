@@ -1,0 +1,23 @@
+{
+  "name": "MongoConnection",
+  "version": "1.0.0",
+  "description": "MongoConnection",
+  "private": true,
+  "dependencies": {
+    "mongodb": "^2.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazarvynn/MongoConnection.git"
+  },
+  "author": "Nazar Vynnytskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazarvynn/MongoConnection/issues"
+  },
+  "homepage": "https://github.com/nazarvynn/MongoConnection#readme"
+}

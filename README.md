@@ -47,15 +47,15 @@ $ps -ef | grep mongo  //mongodb   1307  1  0 02:27 ?        00:00:01 /usr/bin/mo
 ```
 $mongo
 
-show dbs                    # show database names
-show collections            # show collections in current database
-show users                  # show users in current database
-show profile                # show most recent system.profile entries with time >= 1ms
-show logs                   # show the accessible logger names
-show log [name]             # prints out the last segment of log in memory, 'global' is default
-use <db_name>               # set current database
-db.foo.find()               # list objects in collection foo
-db.foo.find( { a : 1 } )    # list objects in foo where a == 1
-it                          # result of the last line evaluated; use to further iterate
-exit                        # quit the mongo shell
+show dbs                    // show database names
+show collections            // show collections in current database
+show users                  // show users in current database
+show profile                // show most recent system.profile entries with time >= 1ms
+show logs                   // show the accessible logger names
+show log [name]             // prints out the last segment of log in memory, 'global' is default
+use <db_name>               // set current database
+db.foo.find()               // list objects in collection foo
+db.foo.find( { a : 1 } )    // list objects in foo where a == 1
+it                          // result of the last line evaluated; use to further iterate
+exit                        // quit the mongo shell
 ```
